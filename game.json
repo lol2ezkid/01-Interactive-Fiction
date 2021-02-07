@@ -1,0 +1,338 @@
+{
+    "passages": [
+      {
+        "text": "Your car runs out of gas on a small road in the woods. You have no reception. There is a gas station a few miles back from where you came. There is a old house down the road. You might be able to get signal on the steep hill by the side the road....\n\n[[Walk towards house->Old House]]\n[[Hike to gas station->Walk Road]]\n[[Climb Hill->Steep Hill]]",
+        "links": [
+          {
+            "name": "Walk towards house",
+            "link": "Old House",
+            "pid": "2"
+          },
+          {
+            "name": "Hike to gas station",
+            "link": "Walk Road",
+            "pid": "3"
+          },
+          {
+            "name": "Climb Hill",
+            "link": "Steep Hill",
+            "pid": "4"
+          }
+        ],
+        "name": "Roadside",
+        "pid": "1",
+        "position": {
+          "x": "834",
+          "y": "168"
+        }
+      },
+      {
+        "text": "You arrive at the old house. It looks abandoned. You knock on the door, no one seems to be home. The front door is unlocked.\n\n[[Enter house->First Floor]]\n[[Head to car->Roadside]] ",
+        "links": [
+          {
+            "name": "Enter house",
+            "link": "First Floor",
+            "pid": "5"
+          },
+          {
+            "name": "Head to car",
+            "link": "Roadside",
+            "pid": "1"
+          }
+        ],
+        "name": "Old House",
+        "pid": "2",
+        "position": {
+          "x": "661",
+          "y": "158"
+        }
+      },
+      {
+        "text": "You start to walk towards the gas station, the road seems deserted. You hear branches cracking and leaves shuffling a bit aways from you..... \n\n[[Keep walking->The Walk]]\n[[Head to car->Roadside]] ",
+        "links": [
+          {
+            "name": "Keep walking",
+            "link": "The Walk",
+            "pid": "12"
+          },
+          {
+            "name": "Head to car",
+            "link": "Roadside",
+            "pid": "1"
+          }
+        ],
+        "name": "Walk Road",
+        "pid": "3",
+        "position": {
+          "x": "690",
+          "y": "313"
+        }
+      },
+      {
+        "text": "You start to hike up the hill in search for signal. The hill is super steep, you see a possible way up on the side.\n\n[[Keep hiking->Hilltop]]\n[[Head to car->Roadside]] ",
+        "links": [
+          {
+            "name": "Keep hiking",
+            "link": "Hilltop",
+            "pid": "16"
+          },
+          {
+            "name": "Head to car",
+            "link": "Roadside",
+            "pid": "1"
+          }
+        ],
+        "name": "Steep Hill",
+        "pid": "4",
+        "position": {
+          "x": "1072",
+          "y": "137"
+        }
+      },
+      {
+        "text": "You enter the house, its dark so you use the flash on your phone. The boards creek with every step you take. You call out \"Hello!\". No response. You decide where to look first. You see stairs infront, a kitchen to the left, and a door to the right that leads to the garage. \n\n[[Search upstairs ->Upstairs]]\n[[Search kitchen->Kitchen]]\n[[Search garage->Garage]]",
+        "links": [
+          {
+            "name": "Search upstairs ",
+            "link": "Upstairs",
+            "pid": "6"
+          },
+          {
+            "name": "Search kitchen",
+            "link": "Kitchen",
+            "pid": "7"
+          },
+          {
+            "name": "Search garage",
+            "link": "Garage",
+            "pid": "8"
+          }
+        ],
+        "name": "First Floor",
+        "pid": "5",
+        "position": {
+          "x": "496",
+          "y": "146"
+        }
+      },
+      {
+        "text": "You walk up the stairs queitly, you see three rooms. The room on the right seems to be locked. The two other rooms are unlocked. You begin to feel uneasy.\n\n[[Search room 1->Room One]]\n[[Search room 2->Room Two]]\n[[Go downstairs->First Floor]] ",
+        "links": [
+          {
+            "name": "Search room 1",
+            "link": "Room One",
+            "pid": "9"
+          },
+          {
+            "name": "Search room 2",
+            "link": "Room Two",
+            "pid": "10"
+          },
+          {
+            "name": "Go downstairs",
+            "link": "First Floor",
+            "pid": "5"
+          }
+        ],
+        "name": "Upstairs",
+        "pid": "6",
+        "position": {
+          "x": "263",
+          "y": "165"
+        }
+      },
+      {
+        "text": "In the kitchen you begin to look but don't find anything useful. You start to get the feeling something is watching you....\n\n[[Head to garage->Garage]]\n[[Search upstairs->Upstairs]]\n[[Leave house->Roadside]]",
+        "links": [
+          {
+            "name": "Head to garage",
+            "link": "Garage",
+            "pid": "8"
+          },
+          {
+            "name": "Search upstairs",
+            "link": "Upstairs",
+            "pid": "6"
+          },
+          {
+            "name": "Leave house",
+            "link": "Roadside",
+            "pid": "1"
+          }
+        ],
+        "name": "Kitchen",
+        "pid": "7",
+        "position": {
+          "x": "444",
+          "y": "378"
+        }
+      },
+      {
+        "text": "In the garage you find alot of old tools and machines. Just when you are about to leave you spot a red tin can with gas in it. You leave some cash and take the can.\n\n[[Head to car->Car]] ",
+        "links": [
+          {
+            "name": "Head to car",
+            "link": "Car",
+            "pid": "11"
+          }
+        ],
+        "name": "Garage",
+        "pid": "8",
+        "position": {
+          "x": "582",
+          "y": "407"
+        }
+      },
+      {
+        "text": "You slowly open the door. The room looks empty. For some reason you feel relieved. \n\n[[Other room->Room Two]] \n[[Go downstairs->First Floor]]",
+        "links": [
+          {
+            "name": "Other room",
+            "link": "Room Two",
+            "pid": "10"
+          },
+          {
+            "name": "Go downstairs",
+            "link": "First Floor",
+            "pid": "5"
+          }
+        ],
+        "name": "Room One",
+        "pid": "9",
+        "position": {
+          "x": "119",
+          "y": "289"
+        }
+      },
+      {
+        "text": "You make your way towards the second room, you notice the door is slighty open. Your heart begins to race. As you open the door a rat runs out and startles you. You regain composer and open the door. It turns out to be an ordinary room. You don't find any gas in the room. \n\n[[Other one->Room One]] \n[[Go downstairs->First Floor]] ",
+        "links": [
+          {
+            "name": "Other one",
+            "link": "Room One",
+            "pid": "9"
+          },
+          {
+            "name": "Go downstairs",
+            "link": "First Floor",
+            "pid": "5"
+          }
+        ],
+        "name": "Room Two",
+        "pid": "10",
+        "position": {
+          "x": "270",
+          "y": "415"
+        }
+      },
+      {
+        "text": "You get to your car pour the gas in. You start the car, and drive off.\n\n\t\t\t\t\tGood job, hope you enjoyed it!\n\t\t\t\t\t\tThanks for Playing!\n",
+        "name": "Car",
+        "pid": "11",
+        "position": {
+          "x": "775",
+          "y": "679"
+        }
+      },
+      {
+        "text": "The more you walk, the louder the noise in the woods. You can tell something is walking by the pattern of crunches on the ground. You look from the road towards the noise. You walk more queitly.... \n\n[[Keep walking->Almost There]]\n[[Turn back->Roadside]] ",
+        "links": [
+          {
+            "name": "Keep walking",
+            "link": "Almost There",
+            "pid": "13"
+          },
+          {
+            "name": "Turn back",
+            "link": "Roadside",
+            "pid": "1"
+          }
+        ],
+        "name": "The Walk",
+        "pid": "12",
+        "position": {
+          "x": "739",
+          "y": "467"
+        }
+      },
+      {
+        "text": "Before you know it the noise is right next to you, you cant exactly make out what it is because of the brush.....  you patiently wait, and then you lock eyes with it... Its a bear. You freeze. Your mind scrambles...\n\n[[Run->Gas Station]]\n[[Yell->Stand Ground]] ",
+        "links": [
+          {
+            "name": "Run",
+            "link": "Gas Station",
+            "pid": "14"
+          },
+          {
+            "name": "Yell",
+            "link": "Stand Ground",
+            "pid": "15"
+          }
+        ],
+        "name": "Almost There",
+        "pid": "13",
+        "position": {
+          "x": "872",
+          "y": "304"
+        }
+      },
+      {
+        "text": "At last you make it to the gas station, lucky the bear didn't think you were food. You buy a gas can and some gas. \n\n[[Head to car->Car]]",
+        "links": [
+          {
+            "name": "Head to car",
+            "link": "Car",
+            "pid": "11"
+          }
+        ],
+        "name": "Gas Station",
+        "pid": "14",
+        "position": {
+          "x": "895",
+          "y": "491"
+        }
+      },
+      {
+        "text": "You yell and scare the bear, it runs off into the woods. The gas station is in sight from where you are... \n[[Keep walking->Gas Station]]\n[[Head to car->Roadside]] ",
+        "links": [
+          {
+            "name": "Keep walking",
+            "link": "Gas Station",
+            "pid": "14"
+          },
+          {
+            "name": "Head to car",
+            "link": "Roadside",
+            "pid": "1"
+          }
+        ],
+        "name": "Stand Ground",
+        "pid": "15",
+        "position": {
+          "x": "1009",
+          "y": "340"
+        }
+      },
+      {
+        "text": "You eventually reach the top, however no luck on getting any signal. Your exhusted, but the view is nice.\n\n[[Head to car->Roadside]] ",
+        "links": [
+          {
+            "name": "Head to car",
+            "link": "Roadside",
+            "pid": "1"
+          }
+        ],
+        "name": "Hilltop",
+        "pid": "16",
+        "position": {
+          "x": "1135",
+          "y": "281"
+        }
+      }
+    ],
+    "name": "In Seach of Gas",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "E25688D5-BE9D-46C6-A889-22346B0A809F"
+  }
